@@ -3,8 +3,8 @@ from talon.scripting.context import *  # type: ignore
 from talon.scripting.talon_script import *  # type: ignore
 from talon.scripting.types import *  # type: ignore
 from typing import *
-from user.cheatsheet.doc.talon_script.description import *
-from user.cheatsheet.doc.talon_script.walker import TalonScriptWalker
+from .description import *
+from .walker import TalonScriptWalker
 
 import re
 

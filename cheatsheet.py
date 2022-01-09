@@ -1,7 +1,7 @@
 from talon import Module, actions, registry
 from typing import *
-from user.cheatsheet.doc.html import HtmlDoc
-from user.cheatsheet.doc.tex import TeXDoc
+from .doc.html import HtmlDoc
+from .doc.tex import TeXDoc
 
 import os
 import re

@@ -3,7 +3,7 @@ from contextlib import AbstractContextManager
 from talon import actions, registry
 from talon.scripting.context import Context  # type: ignore
 from typing import *
-from user.cheatsheet.doc.talon_script.describe import Describe
+from .talon_script.describe import Describe
 import re
 
 # Abstract classes for printing cheatsheet document

@@ -1,6 +1,6 @@
 from io import TextIOWrapper
 from typing import *
-from user.cheatsheet.doc.abc import *
+from .abc import *
 
 import re
 
